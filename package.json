@@ -1,0 +1,60 @@
+{
+  "name": "minecraft-addon-toolchain",
+  "version": "1.0.0",
+  "description": "Productivity tools for making Minecraft Bedrock Edition add-ons",
+  "main": "index.js",
+  "scripts": {
+    "compile": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "github.com:Project-Patch/minecraft-mod-packer",
+  "keywords": [
+    "minecraft",
+    "bedrock",
+    "scripting",
+    "api",
+    "gulp"
+  ],
+  "author": "Nick Atkins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Project-Patch/minecraft-mod-packer/issues"
+  },
+  "homepage": "https://Project-Patch.github.io/",
+  "dependencies": {
+    "@types/gulp": "^4.0.9",
+    "@types/gulp-tap": "^1.0.0",
+    "@types/gulp-util": "^3.0.36",
+    "@types/pump": "^1.1.1",
+    "es6-dynamic-template": "^1.0.5",
+    "gulp": "^4.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-if": "^2.0.2",
+    "gulp-ignore": "^2.0.2",
+    "gulp-match": "^1.0.3",
+    "gulp-tap": "^1.0.1",
+    "gulp-util": "^3.0.8",
+    "gulp-zip": "^4.2.0",
+    "lodash": "^4.17.11",
+    "normalize-path": "^3.0.0",
+    "pump": "^3.0.0",
+    "sanitize-filename": "^1.6.1",
+    "vinyl": "^2.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "babel-loader": "^8.2.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "del": "^6.0.0",
+    "eslint": "^5.11.1",
+    "minecraft-addon-toolchain-typescript": "^1.0.3",
+    "node-polyfill-webpack-plugin": "^1.1.4",
+    "path-browserify": "^1.0.1",
+    "ts-loader": "^9.2.6",
+    "uuid": "^8.3.2",
+    "webpack-cli": "^4.8.0"
+  },
+  "gitHead": "e474ab9074f2a788119c0705b308458ca9bfd2ee"
+}

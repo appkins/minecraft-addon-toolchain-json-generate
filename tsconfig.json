@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "ES6",
+    "noImplicitAny": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "rootDir": "./src",
+    "target": "ES5",
+    "outDir": "dist",
+    "moduleResolution": "node"
+  },
+  "include": ["src/*.ts", "src/**/*.ts"]
+}
